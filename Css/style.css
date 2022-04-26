@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #fff;
+    font-size: 1.4rem;
+    height: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+
+/* nav */
+
+#main-nav .nav-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+.nav-links li {
+    margin-top: 1rem;
+    margin-right: .8rem;
+}
+
+/* google-logo */
+#main-header .logo-container {
+    margin: 100px;
+}
+
+#main-header .logo-container img {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* search-section */
+
+#search-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#search-area .search-area-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 48px;
+    width: 580px;
+    padding: 6px 8px 2px 16px;
+    gap: 10px;
+}
+
+#search-area .search-area-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.input-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.input-container .input-area{
+    display: flex;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    flex: 100%;   
+}
+.search-input{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    line-height: 34px;
+    flex: 100%;
+
+}
+.voice-logo img{
+    width: 32px;
+    height: 32px;
+}
+
+#search-area a {
+    color: #111;
+}
+
+/* button */
+
+.google-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+}
+
+.btn{
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    min-width: 54px;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 4px 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 1.95px 1.95px 2.6px;
+
+}
+
+/* footer */
+
+.footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links ul{
+    display: flex;    
+}
+
+.footer p {
+    padding: 1.8rem;
+}
+.footer-links ul li{
+    padding: 1.2rem;
+}
